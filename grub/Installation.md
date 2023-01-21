@@ -116,7 +116,7 @@ cd distro-grub-themes/customize
 
 The theme must be unpacked inside a folder before you can copy it.
 
-```
+```shell
 sudo cp -r <theme_name>/ BOOT_GRUB_LOCATION/themes
 ```
 
@@ -130,7 +130,7 @@ sudo nano /etc/default/grub
 
 Uncomment this line and set your display resolution:
 
-```
+```shell
 GRUB_GFXMODE=1920x1080
 ```
 
@@ -138,7 +138,7 @@ Make sure `GRUB_TERMINAL_OUTPUT="console"` is commented out!
 
 At the end of the file, add the path of your theme:
 
-```
+```shell
 GRUB_THEME="BOOT_GRUB_LOCATION/themes/<theme_name>/theme.txt"
 ```
 
@@ -158,13 +158,13 @@ sudo update-grub
 
 If you have a UEFI system, run:
 
-```
+```shell
 sudo grub-mkconfig -o BOOT_GRUB_LOCATION/grub.cfg
 ```
 
 or
 
-```
+```shell
 sudo grub2-mkconfig -o BOOT_GRUB_LOCATION/grub.cfg
 ```
 

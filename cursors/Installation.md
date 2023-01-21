@@ -1,3 +1,5 @@
+# Usage
+
 1. Clone repository and go to downloaded directory:
 
    ```shell
@@ -10,6 +12,4 @@
    - for local user to: `~/.icons`
    - for all users to: `/usr/share/icons/`
 
-3. Choose theme in the Settings
-
-### 
+3. Choose theme in the Settings 
