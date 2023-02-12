@@ -123,31 +123,31 @@
 
 /* font */
 @font-face {
-  font-family: "Open Sans";
+  font-family: "Maple Mono SC NF";
   font-style: normal;
   font-weight: normal;
-  src: local("Open Sans Regular"), url("./dracula/400.woff") format("woff");
+  src: local("Maple Mono SC NF Regular"), url("./dracula/400.woff") format("woff");
 }
 
 @font-face {
-  font-family: "Open Sans";
+  font-family: "Maple Mono SC NF";
   font-style: italic;
   font-weight: normal;
-  src: local("Open Sans Italic"), url("./dracula/400i.woff") format("woff");
+  src: local("Maple Mono SC NF Italic"), url("./dracula/400i.woff") format("woff");
 }
 
 @font-face {
-  font-family: "Open Sans";
+  font-family: "Maple Mono SC NF";
   font-style: normal;
   font-weight: bold;
-  src: local("Open Sans Bold"), url("./dracula/700.woff") format("woff");
+  src: local("Maple Mono SC NF Bold"), url("./dracula/700.woff") format("woff");
 }
 
 @font-face {
-  font-family: "Open Sans";
+  font-family: "Maple Mono SC NF";
   font-style: italic;
   font-weight: bold;
-  src: local("Open Sans Bold Italic"), url("./dracula/700i.woff") format("woff");
+  src: local("Maple Mono SC NF Bold Italic"), url("./dracula/700i.woff") format("woff");
 }
 
 /* basic style */
@@ -156,7 +156,7 @@ html {
 }
 
 body {
-  font-family: "Open Sans", "Clear Sans", "Helvetica Neue", Helvetica, Arial,
+  font-family: "Maple Mono SC NF", "Clear Sans", "Helvetica Neue", Helvetica, Arial,
     sans-serif;
   color: var(--text-color1);
   background: var(--bg-color1);
